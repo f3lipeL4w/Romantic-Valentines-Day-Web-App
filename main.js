@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Start typewriter effect for the second line
         const typedTextElement = document.querySelector(".typed-text");
         setTimeout(() => {
-            typeWriterEffect(typedTextElement, "HAPPY WOMEN'S DAY!");
+            typeWriterEffect(typedTextElement, "Have you been washing your dishes well?");
         }, 500); // Delay to allow smooth transition
     }
 
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
             yesButton.style.padding = `${newYesSize / 2}px ${newYesSize}px`;
         } else {
             noButton.style.display = "none"; // Hide No button after 5 clicks
-            questionText.innerHTML += `<br><span class="no-choice-text">Did you really think you had a choice? 🤭</span>`;
+            questionText.innerHTML += `<br><span class="no-choice-text">HAPPY WOMEN'S DAY!</span>`;
         }
     });
 
