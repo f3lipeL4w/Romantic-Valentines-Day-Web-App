@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
             yesButton.style.padding = `${newYesSize / 2}px ${newYesSize}px`;
         } else {
             noButton.style.display = "none"; // Hide No button after 5 clicks
-            questionText.innerHTML += `<br><span class="no-choice-text">HAPPY WOMEN'S DAY!</span>`;
+            questionText.innerHTML += `<br><span class="no-choice-text">You liar, I know you have!</span>`;
         }
     });
 
