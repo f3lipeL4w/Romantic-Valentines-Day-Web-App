@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const yesButton = document.querySelector(".choice-box button:first-child");
     const noButton = document.querySelector(".choice-box button:last-child");
 
-    let partnerName = "JILLIAN"; // Replace with dynamic value
+    let partnerName = "DINA"; // Replace with dynamic value
     let noClickCount = 0; // Counter for No button clicks
 
     // Function to create typewriter effect
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Start typewriter effect for the second line
         const typedTextElement = document.querySelector(".typed-text");
         setTimeout(() => {
-            typeWriterEffect(typedTextElement, "Will you be my Valentine?");
+            typeWriterEffect(typedTextElement, "HAPPY WOMEN'S DAY!");
         }, 500); // Delay to allow smooth transition
     }
 
